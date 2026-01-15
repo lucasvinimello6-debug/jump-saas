@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* SF Pro Display Font */
+@font-face {
+  font-family: 'SF Pro Display';
+  src: local('SF Pro Display'), local('system-ui');
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+@layer base {
+  body {
+    @apply bg-white dark:bg-black text-black dark:text-white;
+  }
+}
